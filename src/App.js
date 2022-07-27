@@ -1,7 +1,4 @@
 // Import components
-import Header from "./components/Header";
-import Footer from "./components/Footer";
-import { Route, Switch } from "react-router-dom";
 import Navbar from "./components/Navbar";
 
 // Import Pages
