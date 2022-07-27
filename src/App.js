@@ -1,8 +1,8 @@
 // Import components
 import Navbar from "./components/Navbar";
-
-// Import Pages
 import Home from "./components/Home"
+import About from "./components/About";
+import Skills from "./components/Skills";
 
 function App() {
   // URL should have heroku URL from backend.
@@ -12,6 +12,8 @@ function App() {
     <div>
       <Navbar />
       <Home />
+      <About />
+      <Skills />
     </div>
   );
 }
