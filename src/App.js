@@ -5,9 +5,7 @@ import { Route, Switch } from "react-router-dom";
 import Navbar from "./components/Navbar";
 
 // Import Pages
-import Home from "./pages/Home";
-import About from "./pages/About";
-import Projects from "./pages/Projects";
+import Home from "./components/Home"
 
 function App() {
   // URL should have heroku URL from backend.
@@ -16,6 +14,7 @@ function App() {
   return (
     <div>
       <Navbar />
+      <Home />
     </div>
   );
 }
