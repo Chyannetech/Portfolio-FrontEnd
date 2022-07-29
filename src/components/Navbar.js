@@ -25,15 +25,16 @@ const Navbar = () => {
           </Link>
         </li>
         <li className="hover:underline decoration-pink-500">
-          <Link to="work" smooth={true} duration={500}>
-            Work
-          </Link>
-        </li>
-        <li className="hover:underline decoration-pink-500">
           <Link to="skills" smooth={true} duration={500}>
             Skills
           </Link>
         </li>
+        <li className="hover:underline decoration-pink-500">
+          <Link to="work" smooth={true} duration={500}>
+            Work
+          </Link>
+        </li>
+      
         <li className="hover:underline decoration-pink-500">
           <Link to="contact" smooth={true} duration={500}>
             Contact
