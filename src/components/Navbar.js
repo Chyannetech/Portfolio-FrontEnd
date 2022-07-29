@@ -12,37 +12,44 @@ const Navbar = () => {
       <div>
         <h1 style={{ color: "white" }}>CHYANNE ROBBINS</h1>
       </div>
-      {/* main menu */}
+      {/* Navigation Main Menu */}
       <ul className="hidden md:flex">
-        <li>
+        <li className="hover:underline decoration-pink-500">
           <Link to="home" smooth={true} duration={500}>
             Home
           </Link>
         </li>
-        <li>
+        <li className="hover:underline decoration-pink-500">
           <Link to="about" smooth={true} duration={500}>
             About
           </Link>
         </li>
-        <li>
-          <Link to="projects" smooth={true} duration={500}>
-            Projects
+        <li className="hover:underline decoration-pink-500">
+          <Link to="work" smooth={true} duration={500}>
+            Work
           </Link>
         </li>
-        <li>
+        <li className="hover:underline decoration-pink-500">
           <Link to="skills" smooth={true} duration={500}>
             Skills
           </Link>
         </li>
+        <li className="hover:underline decoration-pink-500">
+          <Link to="contact" smooth={true} duration={500}>
+            Contact
+          </Link>
+        </li>
       </ul>
+      {/* Navigation Main Menu End */}
 
-      {/* Hamburger */}
+      {/* Hamburger Icon */}
       <div
         onClick={handleClick}
         className='md:hidden style={{ color: "pink" }} z-10'
       >
         {!nav ? <FaBars /> : <FaTimes />}
       </div>
+      {/* Hamburger Icon End  */}
 
       {/* Mobile Menu */}
       <ul
@@ -54,9 +61,11 @@ const Navbar = () => {
       >
         <li className="py-6 text-4x1">Home</li>
         <li className="py-6 text-4x1">About</li>
-        <li className="py-6 text-4x1">Projects</li>
+        <li className="py-6 text-4x1">Work</li>
+        <li className="py-6 text-4x1">Skills</li>
         <li className="py-6 text-4x1">Contact</li>
       </ul>
+      {/* Mobile Menu End  */}
 
       {/* Social Icons */}
       <div className="hidden lg:flex fixed flex-col top-[35%] left-0">
@@ -77,7 +86,7 @@ const Navbar = () => {
               Github <FaGithub size={40} />{" "}
             </a>
           </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[rgb(94,23,82)]">
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#a942ae]">
             <a
               className="flex justify-between items-center w-full text-gray-300"
               href="/"
@@ -95,6 +104,7 @@ const Navbar = () => {
           </li>
         </ul>
       </div>
+      {/* Social Icons End */}
     </div>
   );
 };
