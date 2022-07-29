@@ -10,7 +10,7 @@ const Navbar = () => {
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#000000] text-gray-300">
       <div>
-        <h1 style={{ color: "pink" }}>CHYANNE ROBBINS</h1>
+        <h1 style={{ color: "white" }}>CHYANNE ROBBINS</h1>
       </div>
       {/* main menu */}
       <ul className="hidden md:flex">

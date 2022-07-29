@@ -11,24 +11,25 @@ const Home = () => {
       <div className="max-w-[1000px] mx-auto pt-20 px-8 grid flex-grid gap-4 place-content-center max-h-full">
       {/* headshot */}
       <img
-          class="h-auto rounded-full w-50 sm:flex-col  shadow-lg shadow-[#ff66f0]"
+          class="h-auto rounded-full w-72 sm:flex-col shadow-lg shadow-[#66edff]"
           src={headshot}
           alt="headshot"
         />
         <div> 
-          <p className="text-pink-200 pt-20 sm:text-2xl">Hello, my name is</p>
+          <p className="text-[#87868b] pt-10 sm:text-2xl">Hello, my name is</p>
           <h1 className="text-4xl sm:text-6xl font-bold text-[#e2e9ff]">
-            Chyanne Robbins
+            Chyanne Robbins.
           </h1>
-          <h2 className="text-4xl sm:text-4xl font-bold text-[#8892b0]">
+          <h2 className="text-3xl sm:text-3xl font-bold text-[#26b1c6]">
             I'm a Full Stack Developer.
           </h2>
-            <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-gray-600 hover:border-pink-300">
+            <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#292929] shadow-lg shadow-[#a942ae]">
               Projects
               <span className="group-hover:rotate-90 duration-300">
                 <HiArrowNarrowRight className="ml-4" />
               </span>
             </button>
+            <br></br>
         </div>
         
         
