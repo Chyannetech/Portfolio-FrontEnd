@@ -9,6 +9,16 @@
   }
 }
 
+body {
+  font-family: 'Playfair Display', serif;
+}
+
+.logo {
+  font-family: 'Neucha', cursive;
+  font-size: 150%;
+  color: #e43de9;
+}
+
 .content-div {
   background-repeat: no repeat;
   background-size: cover;

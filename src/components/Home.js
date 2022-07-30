@@ -1,22 +1,19 @@
 import React from "react";
+import { skills } from "../data";
 import { HiArrowNarrowRight } from "react-icons/hi";
-import headshot from "../assets/headshot.jpeg";
+import headshotsmall from "../assets/img/skills/headshotsmall.jpg";
+<source />;
 
 const Home = () => {
   return (
     <div name="home" className="w-full pt-20 h-full bg-[#000000]">
-
-
-
-
       {/* container */}
       <div className="max-w-[1000px] mx-auto pt-20 px-8 grid flex-grid gap-4 place-content-center max-h-full">
-
         {/* headshot */}
         <img
           class="h-auto rounded-full w-72 sm:flex-col shadow-lg shadow-[#66edff]"
-          src={headshot}
-          alt="headshot"
+          src={headshotsmall}
+          alt="headshotsmall"
         />
         {/* headshot */}
 
@@ -27,25 +24,37 @@ const Home = () => {
             Chyanne Robbins.
           </h1>
           <div class="container text-2xl sm:text-3xl font-bold text-[#26b1c6]">
-            <p>
-              I'm a Full Stack Developer
-            </p>
+            <p>I'm a Full Stack Developer</p>
           </div>
-        {/* Intro */}
-
-        {/* button */}
-          <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#292929] shadow-lg shadow-[#a942ae]">
+          {/* Intro */}
+        </div>
+      </div>
+      {/* container end*/}
+      {/* Skills icons */}
+      return (
+      <section className="w-auto h-auto bg-[#0d0d0d] border-1 shadow-lg shadow-[#a942ae] px-6 py-6">
+        <div className="container mx-auto">
+          {/* Skills Container */}
+          <div className="max-w-[1000px] mx-auto flex flex-col justify-center w-full h-full"></div>
+          <div className="grid grid-cols-8 md:grid-flow-col">
+            {skills.map((skill, index) => {
+              return (
+                <div className="flex items-center justify-center" key={index}>
+                  <img className="lg:h-30" src={skill.image} alt="" />
+                </div>
+              );
+            })}
+          </div>
+        </div>
+      </section>
+      );
+      {/* Skills Container end */}
+      {/* <button className="text-white group mx-auto border-2 px-6 py-3 my-2 flex items-center hover:bg-[#292929] shadow-lg shadow-[#a942ae]">
             View Work
             <span className="group-hover:rotate-90 duration-300">
               <HiArrowNarrowRight className="ml-4" />
             </span>
-          </button>
-        {/* button */}
-
-          <br></br>
-        </div>
-      </div>
-       {/* container */}
+          </button> */}
     </div>
   );
 };
