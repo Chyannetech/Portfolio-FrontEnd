@@ -12,7 +12,7 @@ const Services = () => {
             <div className='services-content'>
             <div className=" pb-10 pt-20 pl-4">
             <p className="text-4xl inline center font-bold text-white border-b-4 border-[#121212]">
-            Services
+            Skills
             </p> 
             </div>
                 <div className='services-list grid '>

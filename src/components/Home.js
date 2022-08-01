@@ -32,7 +32,8 @@ const Home = () => {
       {/* container end*/}
       {/* Skills icons */}
       return (
-      <section className="w-auto h-auto bg-[#0d0d0d] border-1 shadow-lg shadow-[#a942ae] px-6 py-6">
+        <div className="p-9">
+      <section className="w-auto h-auto bg-[#0d0d0d] border-1 shadow-lg shadow-[#a942ae]  px-6  py-6">
         <div className="container mx-auto">
         
           {/* Skills Container */}
@@ -41,8 +42,9 @@ const Home = () => {
             {skills.map((skill, index) => {
               return (
                 <div className="flex items-center justify-center" key={index}>
-                  <img className="lg:h-30" src={skill.image} alt="" />
+                  <img className="lg:h-20" src={skill.image} alt="skills" />
                 </div>
+                
               );
             })}
           </div>
@@ -50,6 +52,7 @@ const Home = () => {
       </section>
       );
       {/* Skills Container end */}
+      </div>
     </div>
   );
 };
