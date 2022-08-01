@@ -4,16 +4,22 @@ import { services } from "../data/Data";
 
 const Services = () => {
   return (
-    <div className='services section-p' id = "services">
-        <div className='container'>
+    
+    <div className='services text-lg pt-28 bg-black' id = "services">
+    
+        <div className='container max-w-[1000px] mx-auto justify-center w-full h-full '>
             <div className='services-content'>
-
-
-                <div className='services-list grid'>
+            <div className=" pb-10 pt-20 pl-4">
+            <p className="text-4xl inline center font-bold text-white border-b-4 border-[#121212]">
+            Services
+            </p> 
+            </div>
+                <div className='services-list grid '>
+                
                     {
                         services.map((service, index) => {
                             return (
-                                <div className='services-item text-center' key = {index}>
+                                <div className='services-item border-1 shadow-lg shadow-[#a942ae] bg-[#0d0d0d] text-center' key = {index}>
                                     <div className='services-item-img'>
                                         <img src = {service.image} className = "mx-auto" alt = "" />
                                     </div>

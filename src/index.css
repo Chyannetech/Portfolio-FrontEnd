@@ -42,6 +42,7 @@ body {
   row-gap: 2rem;
 }
 .services-item{
+  color: white;
   padding: 2.4rem;
 }
 .services-item-img{
@@ -52,6 +53,7 @@ body {
 }
 .services-item-text .text{
   max-width: 460px;
+  color: rgb(183, 183, 183);
 }
 
 @media screen and (min-width: 768px){
@@ -66,4 +68,9 @@ body {
   .services-list{
       grid-template-columns: repeat(3, 1fr);
   }
+}
+
+.fs-22.fw-5.op-08{
+  color: #26b1c6;
+  font-size: larger;
 }
