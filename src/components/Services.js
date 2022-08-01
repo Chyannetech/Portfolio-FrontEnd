@@ -1,5 +1,6 @@
 import React from "react";
 import { services } from "../data/Data";
+import { HiArrowNarrowRight } from 'react-icons/hi';
 
 
 const Services = () => {
@@ -33,7 +34,16 @@ const Services = () => {
                     }
                 </div>
             </div>
+            <div className="max-w-[1000px] mx-auto"> 
+            <button className="text-white group mx-auto border-2 px-6 py-3 my-14 flex items-center hover:bg-[#292929] shadow-lg shadow-[#262626]">
+            View Work
+            <span className="group-hover:rotate-90 duration-300">
+              <HiArrowNarrowRight className="ml-4" />
+            </span>
+          </button>
+          </div>
         </div>
+        
     </div>
   )
 }
