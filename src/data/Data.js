@@ -44,8 +44,8 @@ export const services = [
       paragraph: "Vivamus a accumsan mauris. Nunc sodales lacus nec felis suscipit dictum. Mauris auctor enim in justo euismod imperdiet."
   },
     {
-        image: `${images.consulting}`,
-        title: "Consulting",
+        image: `${images.branding}`,
+        title: "Branding",
         paragraph: "Vivamus a accumsan mauris. Nunc sodales lacus nec felis suscipit dictum. Mauris auctor enim in justo euismod imperdiet."
     },
 ];

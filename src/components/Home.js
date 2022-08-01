@@ -32,7 +32,7 @@ const Home = () => {
       {/* container end*/}
       {/* Skills icons */}
       return (
-        <div className="p-9">
+        <div className="m-p-9">
       <section className="w-auto h-auto bg-[#0d0d0d] border-1 shadow-lg shadow-[#a942ae]  px-6  py-6">
         <div className="container mx-auto">
         
