@@ -1,5 +1,5 @@
 import React from "react";
-import { skills } from "../data";
+import { skills } from "../data/Data";
 import { HiArrowNarrowRight } from "react-icons/hi";
 import headshotsmall from "../assets/img/skills/headshotsmall.jpg";
 <source />;
@@ -34,6 +34,7 @@ const Home = () => {
       return (
       <section className="w-auto h-auto bg-[#0d0d0d] border-1 shadow-lg shadow-[#a942ae] px-6 py-6">
         <div className="container mx-auto">
+        
           {/* Skills Container */}
           <div className="max-w-[1000px] mx-auto flex flex-col justify-center w-full h-full"></div>
           <div className="grid grid-cols-8 md:grid-flow-col">

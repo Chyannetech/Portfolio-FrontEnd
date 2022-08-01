@@ -9,9 +9,8 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0d0d0d] text-gray-300">
-      <div className="logo">
-        <h1 className="logo">C R</h1>
-      </div>
+      <h1 className="logo">C R</h1>
+
       {/* Navigation Main Menu */}
       <ul className="hidden md:flex">
         <li className="hover:underline decoration-pink-500">
@@ -34,7 +33,7 @@ const Navbar = () => {
             Work
           </Link>
         </li>
-      
+
         <li className="hover:underline decoration-pink-500">
           <Link to="contact" smooth={true} duration={500}>
             Contact

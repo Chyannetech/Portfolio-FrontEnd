@@ -1,6 +1,6 @@
 import React from 'react'
-import wellbrew from "../assets/wellbrew.png"
-import travelmoire from "../assets/travelmoire.png"
+import wellbrew from "../assets/img/projects/wellbrew.png"
+import travelmoire from "../assets/img/projects/travelmoire.png"
 
 const Work = () => {
     return (
