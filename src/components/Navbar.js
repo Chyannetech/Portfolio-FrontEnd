@@ -29,8 +29,8 @@ const Navbar = () => {
           </Link>
         </li>
         <li className="hover:underline decoration-pink-500">
-          <Link to="work" smooth={true} duration={500}>
-            Work
+          <Link to="projects" smooth={true} duration={500}>
+           Projects
           </Link>
         </li>
 

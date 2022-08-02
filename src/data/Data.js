@@ -1,3 +1,12 @@
+
+// projects images
+import Project1 from '../assets/img/projects/wellbrew.png';
+import Project2 from '../assets/img/projects/wbwireframe.png';
+import Project3 from '../assets/img/projects/tmapp.png';
+import Project4 from '../assets/img/projects/tmframe.png';
+import Project5 from '../assets/img/projects/netflix.png';
+
+// skills images
 import SkillImg1 from '../assets/img/skills/html5.png';
 import SkillImg2 from '../assets/img/skills/css3.png';
 import SkillImg3 from '../assets/img/skills/js.png';
@@ -7,7 +16,7 @@ import SkillImg7 from '../assets/img/skills/express.png';
 import SkillImg8 from '../assets/img/skills/mongo.png';
 import images from './images';
 
-// skill
+// Skills
 export const skills = [
     {
       image: SkillImg1,
@@ -32,6 +41,53 @@ export const skills = [
     },
   ];
 
+  // projects
+export const projectsData = [
+  {
+    id: '1',
+    image: Project1,
+    name: 'Wellbrew',
+    category: 'web development',
+  },
+  {
+    id: '2',
+    image: Project2,
+    name: 'Wellbrew',
+    category: 'UX Design',
+  },
+  {
+    id: '3',
+    image: Project3,
+    name: 'Travel Moire',
+    category: 'web development',
+  },
+  {
+    id: '4',
+    image: Project4,
+    name: 'Travel Moire',
+    category: 'UX Design',
+  },
+  {
+    id: '5',
+    image: Project5,
+    name: 'Movie Generator',
+    category: 'web development',
+  },
+];
+
+
+export const projectsNav = [
+  {
+    name: 'all',
+  },
+  {
+    name: 'UX Design',
+  },
+  {
+    name: 'web development',
+  },
+];
+
 export const services = [
     {
         image: `${images.development}`,
@@ -49,4 +105,3 @@ export const services = [
         paragraph: "Vivamus a accumsan mauris. Nunc sodales lacus nec felis suscipit dictum. Mauris auctor enim in justo euismod imperdiet."
     },
 ];
-

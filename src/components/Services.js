@@ -6,7 +6,7 @@ import { HiArrowNarrowRight } from 'react-icons/hi';
 const Services = () => {
   return (
     
-    <div className='services text-lg pt-28 bg-black' id = "services">
+    <div className='services text-lg pt-28 bg-black' id = "skills">
     
         <div className='container max-w-[1000px] mx-auto justify-center w-full h-full '>
             <div className='services-content'>

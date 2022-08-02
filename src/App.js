@@ -1,9 +1,11 @@
+import React from "react";
+
 // Import components
 import Navbar from "./components/Navbar";
-import Home from "./components/Home"
+import Home from "./components/Home";
 import About from "./components/About";
 import Services from "./components/Services";
-import Projects from "./components/Work";
+import Portfolio from "./components/Portfolio";
 
 function App() {
   // URL should have heroku URL from backend.
@@ -15,7 +17,7 @@ function App() {
       <Home />
       <About />
       <Services />
-      <Projects />
+      <Portfolio />
     </div>
   );
 }
