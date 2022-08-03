@@ -1,6 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 import { services } from "../data/Data";
 import { HiArrowNarrowRight } from 'react-icons/hi';
+import { Link } from "react-scroll";
+
 
 
 const Services = () => {
@@ -34,17 +36,24 @@ const Services = () => {
                     }
                 </div>
             </div>
+            
             <div className="max-w-[1000px] mx-auto"> 
-            <button className="text-white group mx-auto border-2 px-6 py-3 my-14 flex items-center hover:bg-[#292929] shadow-lg shadow-[#262626]">
+            <Link to="projects">
+            <button className="text-white group mx-auto border-2 px-6 py-3 my-14 flex items-center hover:bg-[#292929] shadow-lg shadow-[#262626]"> 
             View Work
+           
             <span className="group-hover:rotate-90 duration-300">
               <HiArrowNarrowRight className="ml-4" />
             </span>
+           
           </button>
+          </Link>
           </div>
+          
         </div>
-        
+       
     </div>
+    
   )
 }
 

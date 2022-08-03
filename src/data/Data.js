@@ -5,6 +5,7 @@ import Project2 from '../assets/img/projects/wbwireframe.png';
 import Project3 from '../assets/img/projects/tmapp.png';
 import Project4 from '../assets/img/projects/tmframe.png';
 import Project5 from '../assets/img/projects/netflix.png';
+import Project6 from '../assets/img/projects/pomotom.png';
 
 // skills images
 import SkillImg1 from '../assets/img/skills/html5.png';
@@ -47,44 +48,66 @@ export const projectsData = [
     id: '1',
     image: Project1,
     name: 'Wellbrew',
-    category: 'web development',
+    category: 'Web Development',
+    description: 'Python, JavaScript, Django, PostgreSQL, Materialize',
+    github: 'https://github.com/Chyannetech/Wellbrew-1.2',
+    demo: 'https://wellbrew.herokuapp.com/',
   },
   {
     id: '2',
-    image: Project2,
-    name: 'Wellbrew',
-    category: 'UX Design',
+    image: Project3,
+    name: 'Travel Moire',
+    description: 'JavaScript, jQuery, Node.js, Mongoose, MongoDB, EJS',
+    category: 'Web Development',
+    github: 'https://github.com/Chyannetech/TravelMoire',
+    demo: 'https://travelmoire.herokuapp.com/',
+  },
+  {
+    id: '6',
+    image: Project6,
+    name: 'PomoTom',
+    description: 'JavaScript, HTML5, CSS3, Node.JS, MongoDB, React, Express.js, Material UI, Figma, Restful Routes',
+    category: 'Web Development',
+    github: 'https://github.com/krismally/pomo-frontend',
+    demo: 'https://pomotom.com/',
   },
   {
     id: '3',
-    image: Project3,
-    name: 'Travel Moire',
-    category: 'web development',
+    image: Project5,
+    name: 'Netflix and Chill',
+    description: 'JavaScript, jQuery, AJAX, OMDB API ',
+    category: 'Web Development',
+    github: 'https://github.com/Chyannetech/Movies',
   },
   {
     id: '4',
     image: Project4,
     name: 'Travel Moire',
+    description: 'Figma',
     category: 'UX Design',
+    prototype: 'https://www.figma.com/proto/L3GojFGEw3TJUp6xIckAXQ/TRAVEL-%7C-MOIRE?node-id=0%3A1',
   },
   {
     id: '5',
-    image: Project5,
-    name: 'Movie Generator',
-    category: 'web development',
+    image: Project2,
+    name: 'Wellbrew',
+    description: 'Figma',
+    category: 'UX Design',
+    prototype: 'https://www.figma.com/proto/KF6Do2q6FTRQAE8PccbngJ/Wellbrew?node-id=20%3A45&scaling=scale-down&page-id=0%3A1&starting-point-node-id=20%3A45',
   },
+  
 ];
 
 
 export const projectsNav = [
   {
-    name: 'all',
+    name: 'All',
   },
   {
     name: 'UX Design',
   },
   {
-    name: 'web development',
+    name: 'Web Development',
   },
 ];
 

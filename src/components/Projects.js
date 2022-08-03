@@ -33,7 +33,7 @@ const Projects = () => {
     <div>
       {/* projects nav */}
       <nav className='mb-12 max-w-[1000px] mx-auto py-6'>
-        <ul className='flex flex-col md:flex-row justify-evenly items-center text-white  pt-3'>
+        <ul className='flex flex-col md:flex-row justify-evenly items-center text-white   pt-3'>
           {projectsNav.map((item, index) => {
             return (
               <li
@@ -42,7 +42,7 @@ const Projects = () => {
                 }}
                 className={`${
                   active === index ? 'active' : ''
-                } cursor-pointer capitalize m-4`}
+                } cursor-pointer m-4`}
                 key={index}
               >
                 {item.name}

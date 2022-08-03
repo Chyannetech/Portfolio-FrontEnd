@@ -8,33 +8,33 @@ const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
   return (
-    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0d0d0d] text-gray-300">
+    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#000000] text-gray-300">
       <h1 className="logo">C R</h1>
 
       {/* Navigation Main Menu */}
       <ul className="hidden md:flex">
-        <li className="hover:underline decoration-pink-500">
+        <li className="hover:underline decoration-[#a942ae]">
           <Link to="home" smooth={true} duration={500}>
             Home
           </Link>
         </li>
-        <li className="hover:underline decoration-pink-500">
+        <li className="hover:underline decoration-[#a942ae]">
           <Link to="about" smooth={true} duration={500}>
             About
           </Link>
         </li>
-        <li className="hover:underline decoration-pink-500">
+        <li className="hover:underline decoration-[#a942ae]">
           <Link to="skills" smooth={true} duration={500}>
             Skills
           </Link>
         </li>
-        <li className="hover:underline decoration-pink-500">
+        <li className="hover:underline decoration-[#a942ae]">
           <Link to="projects" smooth={true} duration={500}>
            Projects
           </Link>
         </li>
 
-        <li className="hover:underline decoration-pink-500">
+        <li className="hover:underline decoration-[#a942ae]">
           <Link to="contact" smooth={true} duration={500}>
             Contact
           </Link>
@@ -56,12 +56,12 @@ const Navbar = () => {
         className={
           !nav
             ? "hidden"
-            : "absolute top-0 left-0 w-full h-screen  bg-[#0a192f] flex flex-col justify-center items-center"
+            : "absolute top-0 left-0 w-full h-screen  bg-[#000000] flex flex-col justify-center items-center"
         }
       >
         <li className="py-6 text-4x1">Home</li>
         <li className="py-6 text-4x1">About</li>
-        <li className="py-6 text-4x1">Work</li>
+        <li className="py-6 text-4x1">Projects</li>
         <li className="py-6 text-4x1">Skills</li>
         <li className="py-6 text-4x1">Contact</li>
       </ul>

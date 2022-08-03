@@ -5,7 +5,7 @@ import Projects from './Projects';
 
 const Portfolio = () => {
   return (
-    <div name="Projects" className="w-full pt-20 h-full bg-[#000000] text-[#c1c0c0]">
+    <div name="Projects" className="w-full pt-28 h-full bg-[#000000] text-[#c1c0c0]">
     <section id='projects' className='section bg-[#000000] min-h-[1400px]'>
       <div className='container pt-28 mx-auto'>
       <div className=" pl-10 pt-10">

@@ -33,7 +33,7 @@ const Home = () => {
       {/* Skills icons */}
       return (
         <div className="m-p-9">
-      <section className="w-auto h-auto bg-[#0d0d0d] border-1 shadow-lg shadow-[#a942ae]  px-6  py-6">
+      <section className="w-auto h-auto bg-[#000000]  shadow-lg shadow-[#a942ae] px-6  py-6">
         <div className="container mx-auto">
         
           {/* Skills Container */}
