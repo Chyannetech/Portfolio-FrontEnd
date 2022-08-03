@@ -115,16 +115,16 @@ export const services = [
     {
         image: `${images.development}`,
         title: "Web Development",
-        paragraph: "Vivamus a accumsan mauris. Nunc sodales lacus nec felis suscipit dictum. Mauris auctor enim in justo euismod imperdiet."
+        paragraph: "Front-End Web Development, Back-End Web Development,Full-stack Web Development."
     },
     {
       image: `${images.wireframe}`,
       title: "UX Design",
-      paragraph: "Vivamus a accumsan mauris. Nunc sodales lacus nec felis suscipit dictum. Mauris auctor enim in justo euismod imperdiet."
+      paragraph: "User Research and Usability Testing, Web Design, Wireframing,Prototyping, User Flows, Mockups."
   },
     {
         image: `${images.branding}`,
-        title: "Branding",
-        paragraph: "Vivamus a accumsan mauris. Nunc sodales lacus nec felis suscipit dictum. Mauris auctor enim in justo euismod imperdiet."
+        title: "Digital Marketing",
+        paragraph: "SEO, Social Media Marketing, Content Marketing, Email Marketing"
     },
 ];
