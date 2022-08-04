@@ -71,18 +71,27 @@ const Projects = () => {
                     </p>
                     {prototype ? (
                       <a href={prototype} target="_blank" rel="noreferrer">
+                      <button class="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
                         <font className="portfolio__demo-text">Prototype</font>
+                        </button>
                       </a>
                     ) : null}
+                     
                     {github ? (
                       <a href={github} target="_blank" rel="noreferrer">
+                      <button class="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
                         <font>Github</font>
+                        </button>
                       </a>
                     ) : null}
-                    <br></br>
+                   
                     {demo ? (
                       <a href={demo} target="_blank" rel="noreferrer">
+                      <button class="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
+
+
                         <font className="portfolio__demo-text">Live Demo</font>
+                        </button>
                       </a>
                     ) : null}
                   </div>
