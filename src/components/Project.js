@@ -1,21 +1,37 @@
 import React from "react";
+import { projectsData } from "../data/Data";
+import wellbrew from "../assets/img/projects/wellbrew.png";
+import pomotom from "../assets/img/projects/pomotom.png";
+import tmapp from "../assets/img/projects/tmapp.png";
+import netflix from "../assets/img/projects/netflix.png";
+import tmframe from "../assets/img/projects/tmframe.png";
+import wbwireframe from "../assets/img/projects/wbwireframe.png";
+import { motion } from "framer-motion";
 
-const Project = ({ item }) => {
-  return (
-    <div key={item.id} className="flex flex-col items-center text-center">
-      <div className="mb-8">
-        <img className="m-h-full m-w-full" src={item.image} alt="" />
-      </div>
-      <p className="text-[#595959] mb-3">{item.category}</p>
+// const Project = ({ item }) => {
+//   return (
+    // <section id="projects">
+    //   <div>
+    //     {projectsData.map(({ id, image, title, github, demo }) => {
+    //       return (
+    //         <div key={id}>
+    //           <img src={image} alt={title} />
+    //           <div>
+    //             <a href={item.github} target="_blank" rel="noreferrer">
+    //               <font>Github</font>
+    //             </a>
+    //             {demo ? (
+    //               <a href={demo} target="_blank" rel="noreferrer">
+    //                 <font className="portfolio__demo-text">Live Demo</font>
+    //               </a>
+    //             ) : null}
+    //           </div>
+    //         </div>
+    //       );
+    //     })}
+    //   </div>
+    // </section>
+//   );
+// };
 
-      <h3 className="text-2xl font-semibold capitalize mb-3">{item.name}</h3>
-      <p className="text-[#595959] mb-3">{item.description}</p>
-      <a href="{item.github}">
-        <p className="text-[#595959] mb-3">{item.github}</p>
-        <p className="text-[#595959] mb-3">{item.prototype}</p>
-        <font className="portfolio__demo-text">Live Demo</font>
-      </a>
-    </div>
-  );
-};
-export default Project;
+// export default Project;

@@ -115,7 +115,7 @@ export const services = [
     {
         image: `${images.development}`,
         title: "Web Development",
-        paragraph: "Front-End Web Development, Back-End Web Development,Full-stack Web Development."
+        paragraph: "Front-End Web Development, Back-End Web Development, Full-stack Web Development."
     },
     {
       image: `${images.wireframe}`,
@@ -125,6 +125,6 @@ export const services = [
     {
         image: `${images.branding}`,
         title: "Digital Marketing",
-        paragraph: "SEO, Social Media Marketing, Content Marketing, Email Marketing"
+        paragraph: "SEO, Social Media Marketing, Content Marketing, Email Marketing."
     },
 ];
