@@ -57,15 +57,19 @@ const Projects = () => {
       <section id="projects">
         <div className=" grid sm:grid-cols-2 md:grid-cols-3  gap-5">
           {projectsData.map(
-            ({ id, image, title, github, demo, prototype, category }) => {
+            ({ id, image, name, github, demo, prototype, category }) => {
               return (
                 <div
                   className="border-1 mb-10 pl-2 pr-2 pt-2 shadow-md shadow-[#404040] bg-[#0d0d0d]"
                   key={id}
                 >
-                  <img src={image} alt={title} />
+                <h2 className="text-accent text-center text-xl mb-3 text-white">
+                      {name}
+                    </h2>
+                  <img src={image} alt={name} />
                   <div>
-                    <p className="text-accent text-md mb-3 text-white">
+                  
+                  <p className="text-accent text-md mb-3 text-[#404040]">
                       {category}
                     </p>
                     {prototype ? (
