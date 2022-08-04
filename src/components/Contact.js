@@ -39,12 +39,13 @@ const Contact = () => {
           rows="10"
           placeholder="Message"
         ></textarea>
-        <button className="text-white border-2 hover:bg-[#0e0e0e] px-4 py-3 my-8 mx-auto flex items-center">
+        <button className="text-white  border-2 hover:bg-[#292929] shadow-lg shadow-[#262626] px-4 py-3 my-8 mx-auto flex items-center">
           Let's Work
         </button>
       </form>
     </div>
   );
 };
+
 
 export default Contact;

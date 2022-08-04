@@ -52,12 +52,12 @@ const Projects = () => {
 
       {/* projects */}
       <section id="projects">
-        <div className=" grid sm:grid-cols-2 md:grid-cols-3 bg-[#000000] shadow-xl shadow-[#a942ae] border-4 border-double  bg-origin-padding p-8 gap-5">
+        <div className=" grid sm:grid-cols-2 md:grid-cols-3 bg-[#000000]  p-8 gap-5">
           {projectsData.map(
             ({ id, image, name, github, demo, prototype, category }) => {
               return (
                 <div
-                  className="border-1 mb-10 pl-2 pr-2 pt-2  bg-[#0d0d0d]"
+                  className="border-1 mb-10 pl-2 pr-2 pt-2 shadow-lg shadow-[#5c1a4d] border-4 border-[#181818] bg-[#030510]"
                   key={id}
                 >
                   <h2 className="text-accent text-center text-xl mb-3 text-white">
@@ -71,7 +71,7 @@ const Projects = () => {
                     {prototype ? (
                       <a href={prototype} target="_blank" rel="noreferrer">
                         <button class="bg-white hover:bg-[#828282] text-gray-800 font-semibold py-2 px-4 border-gray border rounded shadow">
-                          <font className="portfolio__demo-text">
+                          <font className="buttons">
                             Prototype
                           </font>
                         </button>
@@ -80,16 +80,16 @@ const Projects = () => {
 
                     {github ? (
                       <a href={github} target="_blank" rel="noreferrer">
-                        <button class="bg-white border hover:bg-[#828282] text-gray-800 font-semibold py-2 px-4  border-gray rounded shadow">
-                          <font>Github</font>
+                        <button class="bg-white mb-2 border hover:bg-[#828282] text-gray-800 font-semibold py-2 px-4  border-gray rounded shadow">
+                          <font className="buttons">Github</font>
                         </button>
                       </a>
                     ) : null}
 
                     {demo ? (
                       <a href={demo} target="_blank" rel="noreferrer">
-                        <button class="bg-white border hover:bg-[#828282] text-gray-800 font-semibold py-2 px-4 border-gray rounded shadow">
-                          <font className="portfolio__demo-text">
+                        <button class="bg-white  border hover:bg-[#828282] text-gray-800 font-semibold py-2 px-4 border-gray rounded shadow">
+                          <font className="buttons">
                             Live Demo
                           </font>
                         </button>

@@ -17,7 +17,7 @@ const Services = () => {
             {services.map((service, index) => {
               return (
                 <div
-                  className="services-item border-1 shadow-lg shadow-[#a942ae] bg-[#0d0d0d] text-center"
+                  className="services-item border-1 shadow-lg shadow-[#5c1a4d] bg-[#030510] text-center"
                   key={index}
                 >
                 {/* Container Information */}

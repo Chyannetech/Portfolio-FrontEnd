@@ -9,12 +9,14 @@ const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
   return (
+    // logo
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#000000] text-gray-300">
       <h1 className="logo">C R</h1>
+      {/* // logo end */}
 
       {/* Navigation Main Menu */}
       <ul className="hidden md:flex">
-        <li className="hover:underline decoration-[#a942ae]">
+        <li className="hover:underline decoration-[#5c1a4d]">
           <Link to="home" smooth={true} duration={500}>
             Home
           </Link>
@@ -112,7 +114,7 @@ const Navbar = () => {
               Github <FaGithub size={40} />{" "}
             </a>
           </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#a942ae]">
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#982d9e]">
             <a
               className="flex justify-between items-center w-full text-gray-300"
               href="mailto:chyannetech@gmail.com"

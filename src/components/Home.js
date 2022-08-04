@@ -11,7 +11,7 @@ const Home = () => {
       <div className="max-w-[1000px] mx-auto pt-20 px-8 grid flex-grid gap-4 place-content-center max-h-full">
         {/* headshot */}
         <img
-          class="h-auto rounded-full w-72 sm:flex-col shadow-lg shadow-[#66edff]"
+          class="h-auto rounded-full w-72 sm:flex-col shadow-lg shadow-[#26b1c6]"
           src={headshotsmall}
           alt="headshotsmall"
         />
@@ -33,7 +33,7 @@ const Home = () => {
       {/* Skills Container */}
       return (
       <div className="m-p-9">
-        <section className="w-auto h-auto bg-[#000000]  shadow-lg shadow-[#a942ae] px-6  py-6">
+        <section className="w-auto h-auto bg-[#000000]  shadow-lg shadow-[#5c1a4d] px-6  py-6">
           <div className="container mx-auto">
             <div className="max-w-[1000px] mx-auto flex flex-col justify-center w-full h-full"></div>
             <div className="grid grid-cols-8 md:grid-flow-col">
