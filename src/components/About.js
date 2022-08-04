@@ -2,7 +2,10 @@ import React from "react";
 
 const About = () => {
   return (
-    <div name="about" className="w-full pt-20 h-full bg-[#000000] text-[#c1c0c0]">
+    <div
+      name="about"
+      className="w-full pt-20 h-full bg-[#000000] text-[#c1c0c0]"
+    >
       <div className="flex flex-col justify-center items-center w-full h-full">
         <div className="max-w-[1000px] w-full grid grid-cols-2 gap-8">
           <div className=" pb-3 pt-20 pl-4">
@@ -21,15 +24,14 @@ const About = () => {
               fell in love with coding, I was a health education specialist
               where I was exposed to digital media and its great abilities to
               connect and empower people.
-            <br></br>
-             <br></br>
+              <br></br>
+              <br></br>
               After collaborating with several web developers and understanding
               how software applications work to improve our lives, I realized
               that a career in tech building useful web applications was the
               career for me. I'm currently looking to bring my skills to a
               company where I can build beautiful website designs that sync with
               logical and secure backends.
-              
             </p>
           </div>
         </div>

@@ -15,7 +15,7 @@ const Home = () => {
           src={headshotsmall}
           alt="headshotsmall"
         />
-        {/* headshot */}
+        {/* headshot end */}
 
         {/* Intro */}
         <div>
@@ -26,32 +26,29 @@ const Home = () => {
           <div class="container text-2xl sm:text-3xl font-bold text-[#26b1c6]">
             <p>I'm a Full Stack Developer</p>
           </div>
-          {/* Intro */}
+          {/* Intro End */}
         </div>
       </div>
-      {/* container end*/}
-      {/* Skills icons */}
+      {/* container End*/}
+      {/* Skills Container */}
       return (
-        <div className="m-p-9">
-      <section className="w-auto h-auto bg-[#000000]  shadow-lg shadow-[#a942ae] px-6  py-6">
-        <div className="container mx-auto">
-        
-          {/* Skills Container */}
-          <div className="max-w-[1000px] mx-auto flex flex-col justify-center w-full h-full"></div>
-          <div className="grid grid-cols-8 md:grid-flow-col">
-            {skills.map((skill, index) => {
-              return (
-                <div className="flex items-center justify-center" key={index}>
-                  <img className="lg:h-20" src={skill.image} alt="skills" />
-                </div>
-                
-              );
-            })}
+      <div className="m-p-9">
+        <section className="w-auto h-auto bg-[#000000]  shadow-lg shadow-[#a942ae] px-6  py-6">
+          <div className="container mx-auto">
+            <div className="max-w-[1000px] mx-auto flex flex-col justify-center w-full h-full"></div>
+            <div className="grid grid-cols-8 md:grid-flow-col">
+              {skills.map((skill, index) => {
+                return (
+                  <div className="flex items-center justify-center" key={index}>
+                    <img className="lg:h-20" src={skill.image} alt="skills" />
+                  </div>
+                );
+              })}
+            </div>
           </div>
-        </div>
-      </section>
-      );
-      {/* Skills Container end */}
+        </section>
+        );
+        {/* Skills Container end */}
       </div>
     </div>
   );
