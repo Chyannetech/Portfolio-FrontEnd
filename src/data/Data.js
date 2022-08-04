@@ -82,7 +82,7 @@ export const projectsData = [
   {
     id: '4',
     image: Project4,
-    name: 'Travel Moire',
+    name: 'Travel Moire VZ. 2',
     description: 'Figma',
     category: 'UX Design',
     prototype: 'https://www.figma.com/proto/L3GojFGEw3TJUp6xIckAXQ/TRAVEL-%7C-MOIRE?node-id=0%3A1',
@@ -90,7 +90,7 @@ export const projectsData = [
   {
     id: '5',
     image: Project2,
-    name: 'Wellbrew',
+    name: 'Wellbrew VZ. 2',
     description: 'Figma',
     category: 'UX Design',
     prototype: 'https://www.figma.com/proto/KF6Do2q6FTRQAE8PccbngJ/Wellbrew?node-id=20%3A45&scaling=scale-down&page-id=0%3A1&starting-point-node-id=20%3A45',

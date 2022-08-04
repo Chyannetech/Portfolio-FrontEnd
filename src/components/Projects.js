@@ -74,7 +74,7 @@ const Projects = () => {
                     </p>
                     {prototype ? (
                       <a href={prototype} target="_blank" rel="noreferrer">
-                        <button class="bg-white hover:bg-[#828282] text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
+                        <button class="bg-white hover:bg-[#828282] text-gray-800 font-semibold py-2 px-4 border-gray border rounded shadow">
                           <font className="portfolio__demo-text">
                             Prototype
                           </font>
@@ -84,21 +84,23 @@ const Projects = () => {
 
                     {github ? (
                       <a href={github} target="_blank" rel="noreferrer">
-                        <button class="bg-white hover:bg-[#828282] text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
+                        <button class="bg-white border hover:bg-[#828282] text-gray-800 font-semibold py-2 px-4  border-gray rounded shadow">
                           <font>Github</font>
                         </button>
                       </a>
                     ) : null}
+                    
 
                     {demo ? (
                       <a href={demo} target="_blank" rel="noreferrer">
-                        <button class="bg-white hover:bg-[#828282] text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
+                        <button class="bg-white border hover:bg-[#828282] text-gray-800 font-semibold py-2 px-4 border-gray rounded shadow">
                           <font className="portfolio__demo-text">
                             Live Demo
                           </font>
                         </button>
                       </a>
                     ) : null}
+                 
                   </div>
                 </div>
               );
