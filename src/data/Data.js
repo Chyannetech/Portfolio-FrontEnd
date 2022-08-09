@@ -54,7 +54,7 @@ export const projectsData = [
     image: Project3,
     name: "Travel Moire",
     description:
-      "A Full-stack web application built using React, Javascript, HTML, CSS, and backend with full-CRUD using Express, Mongoose and MongoDB.",
+      "A full-CRUD web application built using React, Javascript, HTML, CSS, and backend with full-CRUD using Express, Mongoose and MongoDB.",
     category: "Web Development",
     github: "https://github.com/Chyannetech/TravelMoire",
     demo: "https://travelmoire.herokuapp.com/",
