@@ -10,11 +10,11 @@
 }
 
 body {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
 }
 
 .logo {
-  font-family: 'Neucha', cursive;
+  font-family: "Neucha", cursive;
   font-size: 150%;
   color: #ffffff;
 }
@@ -35,21 +35,15 @@ body {
   padding: 0.5rem;
 }
 
-
-@media screen and (min-width: 768px){
-  .services-list{
-      grid-template-columns: repeat(2, 1fr);
-      column-gap: 2rem;
+@media screen and (min-width: 768px) {
+  .services-list {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 2rem;
   }
 }
 
-
-@media screen and (min-width: 992px){
-  .services-list{
-      grid-template-columns: repeat(3, 1fr);
+@media screen and (min-width: 992px) {
+  .services-list {
+    grid-template-columns: repeat(3, 1fr);
   }
 }
-
-
-
-

@@ -1,22 +1,17 @@
-import React, { useState, useEffect } from "react";
-
 // import data
 import { projectsData } from "../data/Data";
 
-
 const Projects = () => {
   return (
-    <div>
-      
-
+    <div className="md:h-screen">
       {/* projects */}
-      <section className="projects text-lg pt-28 bg-black">
+      <section className=" projects text-lg py-10  bg-black">
         <div className="grid sm:grid-cols-2 md:grid-cols-3 bg-[#000000] justify-center py-3 p gap-5 space-x-2 > * + *">
           {projectsData.map(
             ({ id, image, name, github, demo, prototype, description }) => {
               return (
                 <div
-                  className="border-1 mb-10 pl-2 pr-2 pt-2 shadow-lg shadow-[#5c1a4d] border-4 border-[#181818] bg-[#030510]"
+                  className="w-full h-full border-1 mb-6 pl-2 pr-2 pt-3 shadow-lg shadow-[#5c1a4d] border-4 border-[#181818] bg-[#030510]"
                   key={id}
                 >
                   <h2 className="text-accent text-center text-xl mb-3 text-white">
@@ -24,15 +19,13 @@ const Projects = () => {
                   </h2>
                   <img src={image} alt={name} />
                   <div>
-                    <p className="text-accent text-md mb-3 text-[#b8b8b8]">
+                    <p className="text-accent py-5 content-center text-md mb-3 text-[#b8b8b8]">
                       {description}
                     </p>
                     {prototype ? (
                       <a href={prototype} target="_blank" rel="noreferrer">
                         <button class="bg-white hover:bg-[#828282] text-gray-800 font-semibold py-2 px-4 border-gray border rounded shadow">
-                          <font className="buttons">
-                            Prototype
-                          </font>
+                          <font className="buttons">Prototype</font>
                         </button>
                       </a>
                     ) : null}
@@ -48,9 +41,7 @@ const Projects = () => {
                     {demo ? (
                       <a href={demo} target="_blank" rel="noreferrer">
                         <button class="bg-white  border hover:bg-[#828282] text-gray-800 font-semibold py-2 px-4 border-gray rounded shadow">
-                          <font className="buttons">
-                            Live Demo
-                          </font>
+                          <font className="buttons">Live Demo</font>
                         </button>
                       </a>
                     ) : null}
