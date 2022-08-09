@@ -36,26 +36,6 @@ body {
 }
 
 
-/* Skills */
-
-.services-list{
-  row-gap: 2rem;
-}
-.services-item{
-  color: white;
-  padding: 2.4rem;
-}
-.services-item-img{
-  margin-bottom: 0.8rem;
-}
-.services-item-img img{
-  width: 80px;
-}
-.services-item-text .text{
-  max-width: 460px;
-  color: rgb(183, 183, 183);
-}
-
 @media screen and (min-width: 768px){
   .services-list{
       grid-template-columns: repeat(2, 1fr);
