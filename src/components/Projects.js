@@ -34,7 +34,7 @@ const Projects = () => {
       <section id="projects">
         <div className=" grid sm:grid-cols-2 md:grid-cols-3 bg-[#000000]  p-8 gap-5">
           {projectsData.map(
-            ({ id, image, name, github, demo, prototype, category }) => {
+            ({ id, image, name, github, demo, prototype, description }) => {
               return (
                 <div
                   className="border-1 mb-10 pl-2 pr-2 pt-2 shadow-lg shadow-[#5c1a4d] border-4 border-[#181818] bg-[#030510]"
@@ -45,8 +45,8 @@ const Projects = () => {
                   </h2>
                   <img src={image} alt={name} />
                   <div>
-                    <p className="text-accent text-md mb-3 text-[#404040]">
-                      {category}
+                    <p className="text-accent text-md mb-3 text-[#b8b8b8]">
+                      {description}
                     </p>
                     {prototype ? (
                       <a href={prototype} target="_blank" rel="noreferrer">

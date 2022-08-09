@@ -16,7 +16,7 @@ const Contact = () => {
             Contact
           </p>
           <p className="text-gray-300 py-4">
-            // Submit the form below or shoot me an email -
+            // If you'd like to talk about a project or any opportunities you feel I will be a good fit for, message me at -
             chyannetech@gmail.com
           </p>
         </div>
@@ -40,7 +40,7 @@ const Contact = () => {
           placeholder="Message"
         ></textarea>
         <button className="text-white  border-2 hover:bg-[#292929] shadow-lg shadow-[#262626] px-4 py-3 my-8 mx-auto flex items-center">
-          Let's Work
+          Submit
         </button>
       </form>
     </div>

@@ -71,30 +71,6 @@ export const projectsData = [
     github: 'https://github.com/krismally/pomo-frontend',
     demo: 'https://pomotom.com/',
   },
-  {
-    id: '3',
-    image: Project5,
-    name: 'Netflix and Chill',
-    description: 'JavaScript, jQuery, AJAX, OMDB API ',
-    category: 'Web Development',
-    github: 'https://github.com/Chyannetech/Movies',
-  },
-  {
-    id: '4',
-    image: Project4,
-    name: 'Travel Moire VZ. 2',
-    description: 'Figma',
-    category: 'UX Design',
-    prototype: 'https://www.figma.com/proto/L3GojFGEw3TJUp6xIckAXQ/TRAVEL-%7C-MOIRE?node-id=0%3A1',
-  },
-  {
-    id: '5',
-    image: Project2,
-    name: 'Wellbrew VZ. 2',
-    description: 'Figma',
-    category: 'UX Design',
-    prototype: 'https://www.figma.com/proto/KF6Do2q6FTRQAE8PccbngJ/Wellbrew?node-id=20%3A45&scaling=scale-down&page-id=0%3A1&starting-point-node-id=20%3A45',
-  },
   
 ];
 
