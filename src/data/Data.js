@@ -99,17 +99,7 @@ export const projectsData = [
 ];
 
 
-export const projectsNav = [
-  {
-    name: 'All',
-  },
-  {
-    name: 'UX Design',
-  },
-  {
-    name: 'Web Development',
-  },
-];
+
 
 export const services = [
     {

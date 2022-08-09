@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 
 // import data
 import { projectsData } from "../data/Data";
-import { projectsNav } from "../data/Data";
+
 
 const Projects = () => {
   const [item, setItem] = useState({ name: "all" });
@@ -28,27 +28,7 @@ const Projects = () => {
 
   return (
     <div>
-      {/* projects nav */}
-      <h3>My Recent Work</h3>
-      <nav className="mb-12 max-w-[1000px] mx-auto py-6">
-        <ul className="flex flex-col md:flex-row justify-evenly items-center text-white   pt-3">
-          {projectsNav.map((item, index) => {
-            return (
-              <li
-                onClick={(e) => {
-                  handleClick(e, index);
-                }}
-                className={`${
-                  active === index ? "active" : ""
-                } cursor-pointer m-4`}
-                key={index}
-              >
-                {item.name}
-              </li>
-            );
-          })}
-        </ul>
-      </nav>
+      
 
       {/* projects */}
       <section id="projects">
