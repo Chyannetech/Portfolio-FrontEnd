@@ -1,13 +1,10 @@
 
 // projects images
 import Project1 from '../assets/img/projects/wellbrew.png';
-import Project2 from '../assets/img/projects/wbwireframe.png';
 import Project3 from '../assets/img/projects/tmapp.png';
-import Project4 from '../assets/img/projects/tmframe.png';
-import Project5 from '../assets/img/projects/netflix.png';
 import Project6 from '../assets/img/projects/pomotom.png';
 
-// skills images
+// skill icons images
 import SkillImg1 from '../assets/img/skills/html5.png';
 import SkillImg2 from '../assets/img/skills/css3.png';
 import SkillImg3 from '../assets/img/skills/js.png';
@@ -16,6 +13,7 @@ import SkillImg6 from '../assets/img/skills/nodejs.png';
 import SkillImg7 from '../assets/img/skills/express.png';
 import SkillImg8 from '../assets/img/skills/mongo.png';
 import images from './images';
+
 
 // Skills
 export const skills = [
@@ -73,7 +71,6 @@ export const projectsData = [
   },
   
 ];
-
 
 
 

@@ -5,34 +5,13 @@ import { projectsData } from "../data/Data";
 
 
 const Projects = () => {
-  const [item, setItem] = useState({ name: "all" });
-  const [projects, setProjects] = useState([]);
-  const [active, setActive] = useState(0);
-
-  useEffect(() => {
-    // get projects based on item
-    if (item.name === "all") {
-      setProjects(projectsData);
-    } else {
-      const newProjects = projectsData.filter((project) => {
-        return project.category.toLowerCase() === item.name;
-      });
-      setProjects(newProjects);
-    }
-  }, [item]);
-
-  const handleClick = (e, index) => {
-    setItem({ name: e.target.textContent.toLowerCase() });
-    setActive(index);
-  };
-
   return (
     <div>
       
 
       {/* projects */}
-      <section id="projects">
-        <div className=" grid sm:grid-cols-2 md:grid-cols-3 bg-[#000000]  p-8 gap-5">
+      <section className="projects text-lg pt-28 bg-black">
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 bg-[#000000] justify-center p-8 gap-5">
           {projectsData.map(
             ({ id, image, name, github, demo, prototype, description }) => {
               return (

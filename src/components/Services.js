@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { services } from "../data/Data";
+import { projectsData } from "../data/Data"
 import { HiArrowNarrowRight } from "react-icons/hi";
 import { Link } from "react-scroll";
 
