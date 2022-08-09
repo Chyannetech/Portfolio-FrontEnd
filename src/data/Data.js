@@ -12,7 +12,7 @@ import SkillImg4 from '../assets/img/skills/reactjs.png';
 import SkillImg6 from '../assets/img/skills/nodejs.png';
 import SkillImg7 from '../assets/img/skills/express.png';
 import SkillImg8 from '../assets/img/skills/mongo.png';
-import images from './images';
+
 
 
 // Skills
@@ -74,20 +74,4 @@ export const projectsData = [
 
 
 
-export const services = [
-    {
-        image: `${images.development}`,
-        title: "Web Development",
-        paragraph: "Front-End Web Development, Back-End Web Development, Full-stack Web Development."
-    },
-    {
-      image: `${images.wireframe}`,
-      title: "UX Design",
-      paragraph: "User Research and Usability Testing, Web Design, Wireframing,Prototyping, User Flows, Mockups."
-  },
-    {
-        image: `${images.branding}`,
-        title: "Digital Marketing",
-        paragraph: "SEO, Social Media Marketing, Content Marketing, Email Marketing."
-    },
-];
+

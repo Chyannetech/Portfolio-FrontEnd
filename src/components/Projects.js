@@ -11,7 +11,7 @@ const Projects = () => {
 
       {/* projects */}
       <section className="projects text-lg pt-28 bg-black">
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 bg-[#000000] justify-center p-8 gap-5">
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 bg-[#000000] justify-center py-3 p gap-5 space-x-2 > * + *">
           {projectsData.map(
             ({ id, image, name, github, demo, prototype, description }) => {
               return (
