@@ -5,8 +5,8 @@ const Projects = () => {
   return (
     <div className="md:h-screen">
       {/* projects */}
-      <section className=" projects text-lg py-10  bg-[#000000]">
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 bg-[#000000] justify-center py-3 p gap-5 space-x-2 > * + *">
+      <section className=" projects text-lg py-10 bg-[#000000]">
+        <div className="grid sm:grid-cols-2 md:grid-cols-2 bg-[#000000] justify-center py-3 p gap-5 space-x-2 > * + *">
           {projectsData.map(
             ({ id, image, name, github, demo, prototype, description }) => {
               return (

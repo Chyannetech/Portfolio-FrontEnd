@@ -10,7 +10,7 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
   return (
     // logo
-    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#000000] text-[#000000]">
+    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#000000] text-[#ffffff]">
       <h1 className="logo">C R</h1>
       {/* // logo end */}
 
@@ -37,9 +37,14 @@ const Navbar = () => {
             Contact
           </Link>
         </li>
+        <li className="hover:underline decoration-[#a942ae]">
+        <a href="https://drive.google.com/file/d/1wTPExa3v20woux7zbEs9utbL0UAY69Jf/view?usp=sharing"target="_blank">
+        Resume
+      </a>
+        </li>
       </ul>
       {/* Navigation Main Menu End */}
-
+      
       {/* Hamburger Icon */}
       <div
         onClick={handleClick}
