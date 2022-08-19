@@ -85,7 +85,7 @@ const Navbar = () => {
         <li className="py-6 text-4x1">
           <a
             className="flex justify-between items-center w-full text-black"
-            href="https://drive.google.com/file/d/1IM7m5J1AtcSwFsz571yZQlOjVJ4q939F/view?usp=sharing"target="_blank"
+            href="https://drive.google.com/file/d/1wTPExa3v20woux7zbEs9utbL0UAY69Jf/view?usp=sharing"target="_blank"
           >
             Resume
           </a>
@@ -123,7 +123,7 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[rgb(107,104,27)]">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="https://drive.google.com/file/d/1IM7m5J1AtcSwFsz571yZQlOjVJ4q939F/view?usp=sharing"
+              href="https://drive.google.com/file/d/1wTPExa3v20woux7zbEs9utbL0UAY69Jf/view?usp=sharing"
               target="_blank"
             >
               Resume <BsFillPersonLinesFill size={40} />
