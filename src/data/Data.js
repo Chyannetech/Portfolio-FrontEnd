@@ -1,5 +1,6 @@
 // projects images
 import Project1 from "../assets/img/projects/wellbrew.png";
+import Project2 from "../assets/img/projects/compostr.png";
 import Project3 from "../assets/img/projects/tmapp.png";
 import Project6 from "../assets/img/projects/pomotom.png";
 
@@ -51,6 +52,16 @@ export const projectsData = [
   },
   {
     id: "2",
+    image: Project2,
+    name: "Compostr",
+    category: "Web Development",
+    description:
+      "A full-CRUD web application built using the MERN stack. Javascript, HTML, CSS, MongoDB, Express, React, and Node.",
+    github: "https://github.com/Chyannetech/Compostr",
+    demo: "https://compostr.netlify.app/",
+  },
+  {
+    id: "3",
     image: Project3,
     name: "Travel Moire",
     description:
@@ -60,7 +71,7 @@ export const projectsData = [
     demo: "https://travelmoire.herokuapp.com/",
   },
   {
-    id: "6",
+    id: "4",
     image: Project6,
     name: "PomoTom",
     description:

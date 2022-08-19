@@ -3,14 +3,14 @@ import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { Link } from "react-scroll";
-import Resume from "../assets/img/Resume.png";
+
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
   return (
     // logo
-    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#000000] text-gray-300">
+    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#000000] text-[#000000]">
       <h1 className="logo">C R</h1>
       {/* // logo end */}
 
@@ -54,7 +54,7 @@ const Navbar = () => {
         className={
           !nav
             ? "hidden"
-            : "absolute top-0 left-0 w-full h-screen  bg-[#000000] flex flex-col justify-center items-center"
+            : "absolute top-0 left-0 w-full h-screen  bg-[#ffffff] flex flex-col justify-center items-center"
         }
       >
         <li className="py-6 text-4x1">
@@ -81,6 +81,14 @@ const Navbar = () => {
           <Link onClick={handleClick} to="contact" smooth={true} duration={500}>
             Contact
           </Link>
+        </li>
+        <li className="py-6 text-4x1">
+          <a
+            className="flex justify-between items-center w-full text-black"
+            href="https://drive.google.com/file/d/1IM7m5J1AtcSwFsz571yZQlOjVJ4q939F/view?usp=sharing"target="_blank"
+          >
+            Resume
+          </a>
         </li>
       </ul>
       {/* Mobile Menu End  */}
@@ -115,7 +123,7 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[rgb(107,104,27)]">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href={Resume}
+              href="https://drive.google.com/file/d/1IM7m5J1AtcSwFsz571yZQlOjVJ4q939F/view?usp=sharing"
               target="_blank"
             >
               Resume <BsFillPersonLinesFill size={40} />

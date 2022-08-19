@@ -7,14 +7,14 @@ const Portfolio = () => {
   return (
     <div
       name="projects"
-      className="w-full  md:h-full bg-[#000000] text-[#c1c0c0]"
+      className="w-full  md:h-full bg-[#000000] text-[#ffffff]"
     >
       <section
         id="projects"
         className="max-w-[1000px] mx-auto  p-4 flex flex-col justify-center w-full h-full"
       >
         <div className="pb-5">
-          <p className="text-4xl font-bold inline border-b-4 text-gray-300 border-[#121212]">
+          <p className="text-4xl font-bold inline border-b-4 text-white border-[#ffffff]">
             Projects
           </p>
         </div>

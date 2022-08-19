@@ -13,6 +13,10 @@ body {
   font-family: "Playfair Display", serif;
 }
 
+svg {
+  color: white;
+}
+
 .logo {
   font-family: "Neucha", cursive;
   font-size: 150%;
@@ -45,5 +49,24 @@ body {
 @media screen and (min-width: 992px) {
   .services-list {
     grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.hackathon {
+  background-image:url("./assets/img/FirstPlace.png");
+  background-repeat: no-repeat;
+  height: 1100px;
+  width: 1200px;
+  margin-top: 60px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .hackathon{
+    display: none;
+    /* background-image:url("./assets/img/FirstPlace.png");
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 500px;
+    margin-top: 60px; */
   }
 }
