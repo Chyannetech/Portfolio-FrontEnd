@@ -23,6 +23,13 @@ svg {
   color: #ffffff;
 }
 
+@media screen and (max-width: 768px) {
+  .aboutBox {
+    margin-top: -70px;
+    margin-bottom: 30px;
+  }
+}
+
 .content-div {
   background-repeat: no repeat;
   background-size: cover;
@@ -45,7 +52,7 @@ svg {
 
 @media screen and (max-width: 768px) {
   .contactContainer {
-    margin-top: 50px;
+    margin-top: 10px;
   }
 }
 

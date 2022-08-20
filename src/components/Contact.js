@@ -5,7 +5,7 @@ const Contact = () => {
     <div className="contactContainer">
     <div
       name="contact"
-      className="w-full h-full bg-[#000000] flex justify-center pt-28 items-center p-4 px-10"
+      className="w-full h-full bg-[#000000] flex justify-center pt-27 items-center p-4 px-10"
     >
       <form
         method="post"
@@ -13,7 +13,7 @@ const Contact = () => {
         className="flex flex-col max-w-[600px] w-full"
       >
         <div className="pb-8">
-          <p className="text-4xl font-bold inline border-b-4 border-[#121212] text-[#ffffff]">
+          <p className="text-4xl font-bold inline border-b-4 border-[#ffffff] text-[#ffffff]">
             Contact
           </p>
           <p className="text-[#ffffff] py-4">

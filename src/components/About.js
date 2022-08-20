@@ -6,6 +6,7 @@ const About = () => {
       name="about"
       className="w-full pt-20 h-full bg-[#ffffff] text-[#000000]"
     >
+    <div className="aboutBox">
       <div className="flex flex-col justify-center items-center w-full h-full">
         <div className="max-w-[1000px] w-full grid grid-cols-2 gap-8">
           <div className=" pb-3 pt-20 pl-4">
@@ -27,6 +28,7 @@ const About = () => {
           <div className="hackathon"></div>
         </div>
       </div>
+    </div>
     </div>
   );
 };
