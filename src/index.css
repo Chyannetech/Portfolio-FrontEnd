@@ -77,13 +77,19 @@ svg {
   margin-top: 60px;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 768px) {
   .hackathon{
     display: none;
-    /* background-image:url("./assets/img/FirstPlace.png");
+  }
+}
+@media only screen and (max-width: 768px) {
+  .hackathonMobile{
+    background-image:url("./assets/img/FPmobile3.jpg");
     background-repeat: no-repeat;
-    height: 500px;
-    width: 500px;
-    margin-top: 60px; */
+    background-position: center;
+    width: 100%;
+    height: 400px;
+    margin-top: 60px;
+    
   }
 }

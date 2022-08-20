@@ -26,6 +26,8 @@ const About = () => {
             </p>
           </div>
           <div className="hackathon"></div>
+          <div className="hackathonMobile"></div>
+          
         </div>
       </div>
     </div>
