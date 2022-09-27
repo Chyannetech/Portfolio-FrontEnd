@@ -52,7 +52,7 @@ export const projectsData = [
   },
   {
     id: "3",
-    image: Project2,
+    image: Project3,
     name: "Compostr",
     category: "Web Development",
     description:
@@ -62,7 +62,7 @@ export const projectsData = [
   },
   {
     id: "2",
-    image: Project3,
+    image: Project2,
     name: "Travel Moire",
     description:
       "TravelMoire is a Full Stack React CRUD web appliction that was created to encourage traveling and discovering new adventures around the world.",
