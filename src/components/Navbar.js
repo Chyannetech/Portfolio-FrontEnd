@@ -38,7 +38,7 @@ const Navbar = () => {
           </Link>
         </li>
         <li className="hover:underline decoration-[#a942ae]">
-        <a href="https://drive.google.com/file/d/1wTPExa3v20woux7zbEs9utbL0UAY69Jf/view?usp=sharing"target="_blank">
+        <a href="https://drive.google.com/file/d/1WS6Y4mXkqZ66MywCGWagkv7nGy6HG-vn/view"target="_blank">
         Resume
       </a>
         </li>
@@ -90,7 +90,7 @@ const Navbar = () => {
         <li className="py-6 text-4x1">
           <a
             className="flex justify-between items-center w-full text-black"
-            href="https://drive.google.com/file/d/1wTPExa3v20woux7zbEs9utbL0UAY69Jf/view?usp=sharing"target="_blank"
+            href="https://drive.google.com/file/d/1WS6Y4mXkqZ66MywCGWagkv7nGy6HG-vn/view?usp=sharing"target="_blank"
           >
             Resume
           </a>
@@ -128,7 +128,7 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[rgb(107,104,27)]">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="https://drive.google.com/file/d/1wTPExa3v20woux7zbEs9utbL0UAY69Jf/view?usp=sharing"
+              href="https://drive.google.com/file/d/1WS6Y4mXkqZ66MywCGWagkv7nGy6HG-vn/view"
               target="_blank"
             >
               Resume <BsFillPersonLinesFill size={40} />
