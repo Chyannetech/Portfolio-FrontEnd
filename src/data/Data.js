@@ -53,22 +53,23 @@ export const projectsData = [
   {
     id: "3",
     image: Project3,
-    name: "Compostr",
+    name: "Travel Moire",
     category: "Web Development",
     description:
-      "Compostr is a full stack MERN web application that was created to promote sustainability and encourage composting.",
-    github: "https://github.com/Chyannetech/Compostr",
-    demo: "https://compostr.netlify.app/",
+    "TravelMoire is a Full Stack React CRUD web appliction that was created to encourage traveling and discovering new adventures around the world."
+  ,
+    github: "https://github.com/Chyannetech/TravelMoire-Frontend",
+    demo: "https://travelmoire2.herokuapp.com/",
   },
   {
     id: "2",
     image: Project2,
-    name: "Travel Moire",
+    name: "Compostr",
     description:
-      "TravelMoire is a Full Stack React CRUD web appliction that was created to encourage traveling and discovering new adventures around the world.",
+    "Compostr is a full stack MERN web application that was created to promote sustainability and encourage composting.",
     category: "Web Development",
-    github: "https://github.com/Chyannetech/TravelMoire-Frontend",
-    demo: "https://travelmoire2.herokuapp.com/",
+    github: "https://github.com/Chyannetech/Compostr",
+    demo: "https://compostr.netlify.app/",
   },
   {
     id: "4",
