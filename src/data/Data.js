@@ -59,7 +59,7 @@ export const projectsData = [
     "TravelMoire is a Full Stack React CRUD web appliction that was created to encourage traveling and discovering new adventures around the world."
   ,
     github: "https://github.com/Chyannetech/TravelMoire-Frontend",
-    demo: "https://travelmoire2.herokuapp.com/",
+    demo: "gorgeous-scone-e56fa5.netlify.app",
   },
   {
     id: "2",
