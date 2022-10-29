@@ -19,10 +19,8 @@ const About = () => {
         <div className="max-w-[1000px] text-xlg py-4 mx-auto w-full h-2/5 gap-8 px-6">
           <div>
             <p>
-            I am a Software Engineer who recently graduated from General Assembly's SEI Bootcamp. Before I fell in love with coding, I was a health education specialist where I was exposed to digital media and it's amazing abilities to connect and empower people. After collaborating with web developers in projects at work, and getting experience using HTML and CSS, I became eager to learn more. This led me to doing front-end projects as a freelancer where I helped small businesses with web design, marketing, and branding. During the pandemic I decided to finally take the leap and switch careers to pursue my goals. 
-              <br></br>
-              <br></br>
-              Whether its' brainstorming new ideas, building new front and back-end projects, troubleshooting, or improving old code to make it more efficient and effective, I enjoy everything about software engineering. Most of my applications are built using the MERN stack, but I also have experience using other languages, frameworks, and technologies such as: Python | Django | Bootstrap | Materialize | Flexbox | Postgresql | Git / GitHub | Postman | Figma | and Wordpress.
+            Hi, My name is Chyanne. I just completed a Software Engineering bootcamp at General Assembly in July where I gained fundamental programming knowledge in HTML5, CSS3, Javascript, and Python. Since completing the bootcamp, I've participated in two hackathons, where I worked with a team of other engineers, UI/UX designers, and project managers to develop community driven web applications. I've also rebuilt one of my web applications from bootcamp using the React framework, taught myself Ruby on Rails, and currently I'm learning how to build Wordpress themes and plugins using PHP. Before becoming a software engineer, I received my masters in public health and freelanced in marketing and as a web designer using content management systems like WIX, Wordpress, SquareSpace, and Shopify. Through that experience is what inspired me to pursue software engineering and enroll into a bootcamp to become more well rounded with my coding skills and become a web developer professionally.
+              
             </p>
           </div>
           <div className="hackathon"></div>
