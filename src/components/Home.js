@@ -25,7 +25,7 @@ const Home = () => {
             Chyanne Robbins.
           </h1>
           <div class="container text-2xl sm:text-3xl font-bold text-[#26b1c6]">
-            <p>I'm a Full Stack Developer</p>
+            <p>I'm a UI/UX Designer + Developer</p>
           </div>
           
           {/* Intro End */}

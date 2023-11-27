@@ -69,27 +69,3 @@ svg {
   }
 }
 
-.hackathon {
-  background-image:url("./assets/img/FirstPlace.png");
-  background-repeat: no-repeat;
-  height: 1100px;
-  width: 1200px;
-  margin-top: 60px;
-}
-
-@media only screen and (max-width: 768px) {
-  .hackathon{
-    display: none;
-  }
-}
-@media only screen and (max-width: 768px) {
-  .hackathonMobile{
-    background-image:url("./assets/img/FPmobile3.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 100%;
-    height: 400px;
-    margin-top: 60px;
-    
-  }
-}

@@ -19,12 +19,9 @@ const About = () => {
         <div className="max-w-[1000px] text-xlg py-4 mx-auto w-full h-2/5 gap-8 px-6">
           <div>
             <p>
-            Hi, My name is Chyanne. I just completed a Software Engineering bootcamp at General Assembly in July where I gained fundamental programming knowledge in HTML5, CSS3, Javascript, and Python. Since completing the bootcamp, I've participated in two hackathons, where I worked with a team of other engineers, UI/UX designers, and project managers to develop community driven web applications. I've also rebuilt one of my web applications from bootcamp using the React framework, taught myself Ruby on Rails, and currently I'm learning how to build Wordpress themes and plugins using PHP. Before becoming a software engineer, I received my masters in public health and freelanced in marketing and as a web designer using content management systems like WIX, Wordpress, SquareSpace, and Shopify. Through that experience is what inspired me to pursue software engineering and enroll into a bootcamp to become more well rounded with my coding skills and become a web developer professionally.
-              
+            I'm a frontend developer with extensive experience spanning public health, technology, and social justice. My diverse professional background allows me to approach problems with a unique perspective. With every new project, my aim is to create intentionally ethical, inclusive digital experiences that enable traditionally marginalized groups to harness the benefits of our increasingly tech-driven world. At the core, I am driven by the belief that thoughtful software design and development have the power to drive radical social change; I'm eager to collaborate with teams that are committed to building an equitable and accessible future powered by technology.
             </p>
           </div>
-          <div className="hackathon"></div>
-          <div className="hackathonMobile"></div>
           
         </div>
       </div>
